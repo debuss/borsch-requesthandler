@@ -1,0 +1,21 @@
+{
+  "name": "borsch/requesthandler",
+  "description": "A PSR-15 implementation.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandre DEBUSSCHERE",
+      "email": "zizilex@gmail.com"
+    }
+  ],
+  "require": {
+    "psr/http-server-handler": "^1",
+    "psr/http-server-middleware": "^1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Borsch\\RequestHandler\\": "src/"
+    }
+  }
+}
